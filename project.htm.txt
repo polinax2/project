@@ -1,3 +1,4 @@
 <html> 
 hello, world!
+<img src=”фото/221.jpg”>
 </html>
