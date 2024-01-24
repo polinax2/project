@@ -1,12 +1,10 @@
-#header {
+
+
+#header{
 height: 80px;
 background: url(фото/221.jpg) no-repeat;
 padding-left: 150px;
 padding-top: 10px;
-}
-
-h1{
-
 text-align: center;
 font-size: 70px;
   font-weight: 600;
