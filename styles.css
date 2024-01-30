@@ -39,27 +39,27 @@ h1{
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
 }
-a:hover {
+.pun:hover {
   background:#D43737;/*добавляем эффект при наведении*/
 }
-li {
+.menu {
   float:left; /*Размещаем список горизонтально для реализации меню*/
   position:relative; /*задаем позицию для позиционирования*/
 }
      
     /*Стили для скрытого выпадающего меню*/
-    li > ul {
+    menu > pun {
         position:absolute;
         top:25px;
         display:none;   
     }
      
     /*Делаем скрытую часть видимой*/
-    li:hover > ul {
+    menu:hover > ul {
         display:block; 
         width:250px;  /*Задаем ширину выпадающего меню*/      
     }
-   li:hover > ul > li {
+   menu:hover > ul > li {
         float:none; /*Убираем горизонтальное позиционирование*/
     }
 .Турция{
