@@ -26,7 +26,7 @@ h1{
   background:#819A32; /*добавляем фон всему меню*/
   height: 50px; /*задаем высоту*/
 }
-.pun {
+a {
   text-decoration: none; /*убираем подчеркивание текста ссылок*/
   background:#819A32; /*добавляем фон к пункту меню*/
   color:#fff; /*меняем цвет ссылок*/
@@ -39,27 +39,27 @@ h1{
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
 }
-.pun:hover {
+a:hover {
   background:#D43737;/*добавляем эффект при наведении*/
 }
-.menu {
+li {
   float:left; /*Размещаем список горизонтально для реализации меню*/
   position:relative; /*задаем позицию для позиционирования*/
 }
      
     /*Стили для скрытого выпадающего меню*/
-    menu > pun {
+    li > ul {
         position:absolute;
         top:25px;
         display:none;   
     }
      
     /*Делаем скрытую часть видимой*/
-    menu:hover > menu {
+    li:hover > ul {
         display:block; 
         width:250px;  /*Задаем ширину выпадающего меню*/      
     }
-   menu:hover > menu > pun {
+   li:hover > ul > li {
         float:none; /*Убираем горизонтальное позиционирование*/
     }
 .Турция{
