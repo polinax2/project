@@ -55,11 +55,11 @@ h1{
     }
      
     /*Делаем скрытую часть видимой*/
-    menu:hover > ul {
+    menu:hover > menu {
         display:block; 
         width:250px;  /*Задаем ширину выпадающего меню*/      
     }
-   menu:hover > ul > li {
+   menu:hover > menu > pun {
         float:none; /*Убираем горизонтальное позиционирование*/
     }
 .Турция{
