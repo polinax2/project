@@ -62,10 +62,8 @@ li {
    li:hover > ul > li {
         float:none; /*Убираем горизонтальное позиционирование*/
     }
-.Турция{
-  background:#819A32
-  
-}
+
+
 .main {
   font-size:20
 }
