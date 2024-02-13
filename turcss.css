@@ -19,7 +19,7 @@ h1{
              1px 25px 50px rgba(16, 16, 16, 0.2);
 }
 
-.гл {
+.gl {
   text-decoration: none; /*убираем подчеркивание текста ссылок*/
   background:#819A32; /*добавляем фон к пункту меню*/
   color:#fff; /*меняем цвет ссылок*/
@@ -32,7 +32,7 @@ h1{
   -o-transition: all 0.3s 0.01s ease;
   -webkit-transition: all 0.3s 0.01s ease;
 }
-.гл:hover {
+.gl:hover {
   background:#D43737;/*добавляем эффект при наведении*/
 }
 
